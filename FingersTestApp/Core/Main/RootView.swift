@@ -22,13 +22,12 @@ struct RootView: View {
                 Spacer()
                 TabBarView(selectedTab: $selectedTab)
             }
-            
             VStack {
                 SettingsView(showSettings: $showSettings)
                     .cornerRadius(30)
                     .offset(y: 35)
                     .offset(y: showSettings ? 0 : UIScreen.main.bounds.height)
-                .animation(.spring())
+                    .animation(.spring())
             }
         }
     }
