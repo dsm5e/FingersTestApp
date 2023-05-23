@@ -1,5 +1,4 @@
-# FingersTestApp
- TestAppForEkaterina
+# FingersApp
  
  ## ScreenShots
  | MainView  | SettingsView |
